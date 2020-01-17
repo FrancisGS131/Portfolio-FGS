@@ -76,14 +76,30 @@ $(document).ready(function() {
   // ========================================================================= //
 
   var typed = $(".typed");
+  var qualities = ["Problem Solver.","Ambitious.","Meticulous.","Engineer."];
+  for(var i=0;i<4;i++){
+    // qualities[i] = qualities[i].fontcolor("blue");
+    // qualities[i] = qualities[i].bold();
+    qualities[i] = qualities[i].italics();
+  }
 
+/*
   $(function() {
     typed.typed({
-      strings: ["a <em>Problem Solver.</em>", "<em>Ambitious.</em>", "<em>Meticulous.</em>", "an <em>Engineer.</em>"],
+      strings: [qualities[1], qualities[2], "an "+qualities[3],"a "+ qualities[0]],
       typeSpeed: 80,
       smartBackspace: true,
       loop: true,
     });
+  });
+*/
+
+  var typed = new Typed('#typed',{
+    strings: [qualities[1], qualities[2], "a "+ qualities[0], "an "+qualities[3]],
+    typeSpeed: 80,
+    backSpeed: 25,
+    smartBackspace: true,
+    loop: true,
   });
 
 
