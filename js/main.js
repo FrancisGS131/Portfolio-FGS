@@ -83,17 +83,6 @@ $(document).ready(function() {
     qualities[i] = qualities[i].italics();
   }
 
-/*
-  $(function() {
-    typed.typed({
-      strings: [qualities[1], qualities[2], "an "+qualities[3],"a "+ qualities[0]],
-      typeSpeed: 80,
-      smartBackspace: true,
-      loop: true,
-    });
-  });
-*/
-
   var typed = new Typed('#typed',{
     strings: [qualities[1], qualities[2], "a "+ qualities[0], "an "+qualities[3]],
     typeSpeed: 80,
@@ -118,6 +107,29 @@ $(document).ready(function() {
       responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
     });
 
+    $('.servicesNoScroll-carousel').owlCarousel({
+        autoplay: true,
+        loop: true,
+        margin: 20,
+        dots: true,
+        nav: false,
+        responsiveClass: true,
+        responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+      });
+
+      /*--/ Testimonials owl /--*/
+  	$('#testimonial-mf').owlCarousel({
+  		margin: 20,
+  		autoplay: true,
+      loop: true,
+  		// autoplayTimeout: 4000,
+  		autoplayHoverPause: true,
+  		responsive: {
+  			0: {
+  				items: 1,
+  			}
+  		}
+  	});
   // ========================================================================= //
   //  magnificPopup
   // ========================================================================= //

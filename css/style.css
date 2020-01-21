@@ -155,6 +155,11 @@ p {
   padding-bottom: 90px;
 }
 
+.paddsectionMod {
+  padding-top: 90px;
+  padding-bottom: 0px;
+}
+
 .paddsections {
   padding-top: 90px;
   padding-bottom: 90px !important;
@@ -447,6 +452,54 @@ nav ul li a {
 .portfolio-thumbnail img {
   max-width: 100%;
 }
+
+/*======================================
+//--//-->   TESTIMONIALS
+======================================*/
+
+.testimonials .owl-carousel .owl-item img {
+  width: auto;
+  
+}
+
+.testimonial-box {
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-box .author-test {
+  /* margin-top: 1rem; */
+  margin-top: 0;
+}
+
+.testimonial-box .author-test img {
+  /* margin: 0 auto; */
+  margin: 0;
+}
+
+.testimonial-box .author {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  /* margin: 1rem 0; */
+  margin: 0;
+  display: block;
+  font-size: 1.4rem;
+}
+
+.testimonial-box .comit {
+  font-size: 2rem;
+  color: #0078ff;
+  background-color: #fff;
+  width: 52px;
+  height: 52px;
+  display: block;
+  /* margin: 0 auto; */
+  margin: 0;
+  border-radius: 50%;
+  line-height: 1.6;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
