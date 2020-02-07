@@ -107,15 +107,15 @@ $(document).ready(function() {
       responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
     });
 
-    $('.servicesNoScroll-carousel').owlCarousel({
-        autoplay: true,
-        loop: true,
-        margin: 20,
-        dots: true,
-        nav: false,
-        responsiveClass: true,
-        responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
-      });
+  $('.servicesNoScroll-carousel').owlCarousel({
+      autoplay: true,
+      loop: true,
+      margin: 20,
+      dots: true,
+      nav: false,
+      responsiveClass: true,
+      responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+    });
 
       (function ($) {
   	"use strict";
@@ -220,8 +220,9 @@ $(document).ready(function() {
   		});
   	}
 
-  	/*--/ Testimonials owl /--*/
-  	$('#testimonial-mf').owlCarousel({
+  	/*--/ Testimonials Owl /--*/
+
+    $('#testimonial-mf').owlCarousel({
   		margin: 20,
   		autoplay: true,
       loop:true,
@@ -235,6 +236,49 @@ $(document).ready(function() {
   	});
 
   })(jQuery);
+
+    /*--/ Portfolio Owl /--*/
+
+  $(document).ready(function(){
+    $('.owl-one').owlCarousel({
+      margin: 20,
+      autoplay: true,
+      loop:true,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1,
+        }
+      }
+    });
+
+    $('.owl-two').owlCarousel({
+      margin: 20,
+      autoplay: true,
+      loop:true,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1,
+        }
+      }
+    });
+
+    $('.owl-three').owlCarousel({
+      margin: 20,
+      autoplay: true,
+      loop:true,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1,
+        }
+      }
+    });
+});
 
   // ========================================================================= //
   //  magnificPopup
@@ -264,8 +308,21 @@ $(document).ready(function() {
         }
       }
     });
-  };
 
+    $(document).ready(function() {
+      $('.popup-with-zoom-anim').magnificPopup({
+          type: 'inline',
+          fixedContentPos: false,
+          fixedBgPos: true,
+          overflowY: 'auto',
+          closeBtnInside: true,
+          preloader: false,
+          midClick: true,
+          removalDelay: 300,
+          mainClass: 'my-mfp-zoom-in'
+      });
+  });
+  };
 
   // Call the functions
   magnifPopup();
