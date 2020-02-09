@@ -290,9 +290,24 @@ p {
   background-color: rgba(0,0,0,0.4);
 }
 
+.modal .modal-body{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .brmedium {
     display: block;
     margin-bottom: 0.2em;
+}
+
+.brmedium2 {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.brmedium3 {
+    display: block;
+    margin-bottom: 0.35em;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -377,6 +392,16 @@ text-align: center;
 .img4{
     max-width: 70%;
     max-height: 70%;
+}
+
+.imgPoster{
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.imgPoster2{
+    max-width: 90%;
+    max-height: 90%;
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -682,6 +707,31 @@ text-align: center;
 .navbars .owl-dots .owl-dot.active span {
   background-color: #1B1B1B;
   width: 25px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Experiences Nav Boxes
+/*-----------------------------------------------------------------------------------*/
+
+.navbarsExp .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.navbarsExp .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  border: 0;
+  padding: 0 !important;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.navbarsExp .owl-dot.active {
+  background-color: #b8a07e;
 }
 
 /*-----------------------------------------------------------------------------------*/

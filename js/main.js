@@ -278,6 +278,19 @@ $(document).ready(function() {
         }
       }
     });
+
+    $('.owl-four').owlCarousel({
+      margin: 20,
+      autoplay: true,
+      loop:true,
+      autoplayTimeout: 8000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 3,
+        }
+      }
+    });
 });
 
   // ========================================================================= //
