@@ -291,13 +291,12 @@ p {
 }
 
 .modal .modal-body{
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-top: 0;
 }
 
 .brmedium {
     display: block;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.1em;
 }
 
 .brmedium2 {
