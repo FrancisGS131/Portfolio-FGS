@@ -219,6 +219,7 @@ p {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  white-space: nowrap;
 }
 
 .work-box:hover img {
