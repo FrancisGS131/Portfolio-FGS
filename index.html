@@ -1182,11 +1182,20 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="row">
+            <form id="contactForm" method="post" role="form">
 
-                <div id="sendmessage"> Sent! </div>
-                <div id="errormessage"></div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="alert" id="sendmessage">Message sent</div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="errormessage" id="errormessage">Please fill in the required fields</div>
+                  </div>
+                </div>
 
                 <div class="col-lg-6">
                   <div class="form-group contact-block1">
@@ -1211,7 +1220,7 @@
 
                 <div class="col-lg-12">
                   <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <textarea class="form-control" name="message" id="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                     <div class="validation"></div>
                   </div>
                 </div>
@@ -1275,6 +1284,10 @@
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/counterup/jquery.waypoints.min.js"></script>
   <script src="lib/counterup/jquery.counterup.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158488649-1"></script>

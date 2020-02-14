@@ -857,6 +857,32 @@ text-align: center;
   font-size: 13px;
 }
 
+.alert{
+  color: #18d26e;
+  border: 1px solid #18d26e;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px;
+  font-size: 14px;
+  height: 50px;
+  text-transform: uppercase;
+}
+
+.errormessage{
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px;
+  font-size: 14px;
+  height: 50px;
+  text-transform: uppercase;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
