@@ -235,6 +235,17 @@ $(document).ready(function() {
   		}
   	});
 
+    $('#exp-mf').owlCarousel({
+      margin: 20,
+      autoplay: false,
+      loop:false,
+      responsive: {
+        0: {
+          items: 3,
+        }
+      }
+    });
+
   })(jQuery);
 
     /*--/ Portfolio Owl /--*/

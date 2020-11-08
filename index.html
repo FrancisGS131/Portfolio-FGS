@@ -46,18 +46,19 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="images/signature.png" alt="logo"></a>
+          <a href="#header" class="smoothScroll"><img src="images/signature.png" alt="logo"></a>
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <!--<li><a href="#header" class="smoothScroll">Home</a></li>-->
           <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Projects</a></li>
           <li><a href="#journal" class="smoothScroll">Experiences</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Projects</a></li>
           <li><a href="#achievements" class="smoothScroll">Achievements</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href = "Resume - Francis Sy.pdf">Resume</a></li>
         </ul>
 
       </div>
@@ -106,9 +107,12 @@
             <p class="p-heading">I am a mechanical engineer with a passion for multiple engineering disciplines. I am infatuated with the prototyping process and love taking on ambitious, purposeful projects.</p>
             <p class="separator">I love undertaking projects involving hardware and software. To me, nothing is more fulfilling than seeing an idea be engineered into reality and programmed to life.<hr></p>
 
-            <p class="separator">City College of New York (CCNY), June 2022</br>
-            B.E. in Mechanical Engineering, <u>Minor</u>: Computer Science, <u>GPA</u>: 3.94</br>
-            <u>Coursework</u>: Circuits, Statics, Dynamics, Mechanics of Materials</br>
+            <p class="separator"><b>City College of New York (CCNY)</b>, June 2022</br>
+            B.E. in Mechanical Engineering, <u>Minor</u>: Computer Science, <u>GPA</u>: 3.86</br>
+            <u>Relevant Coursework</u>: </br>
+            <li>Engineering Materials</li>
+            <li>Fluid Mechanics</li>
+            <li>Fundamentals of Mechatronics</li>
           </div>
 
         </div>
@@ -198,30 +202,378 @@
   </div>
   <!-- end section services -->
 
-
-  <!-- start section portfolio -->
-  <div id="portfolio" class="text-center paddsection">
+  <!-- start section journal -->
+  <div id="journal" class="journals text-left paddsection">
 
     <div class="container">
-      <div class="section-title text-center">
-        <h2>My Projects<hr></h2>
+      <div class="section-title">
+        <h2>Experiences</h2>
       </div>
     </div>
 
+      <div class="container">
+        <div class="journal-block">
+          <div class="row">
+
+                <!-- <div class="owl-four owl-carousel owl-theme navbarsExp"> </div>
+                     //Remove <div class="col-lg-4 col-md-6"> </div> header and just use the subheader inside -->
+
+               <div id="exp-mf" class="owl-carousel owl-theme navbarsExp">
+
+                 <div class="journal-info">
+                   <a data-toggle="modal" data-target="#wwModal" href=" "><img src="images/exp/WearWorks.jpg" class="img-responsive" alt="img"></a>
+                   <div class="journal-txt">
+
+                     <h4><a data-toggle="modal" data-target="#wwModal" href=" ">WearWorks Inc</a></h4>
+                     <p class="separator">Mech. Engineering Intern (Jan 2020 - Aug 2020)
+                     </p>
+
+                   </div>
+                 </div>
+
+                  <div class="journal-info">
+                    <a data-toggle="modal" data-target="#zcModal" href=" "><img src="images/exp/ZahnCenter.jpg" class="img-responsive" alt="img"></a>
+                    <div class="journal-txt">
+
+                      <h4><a data-toggle="modal" data-target="#zcModal" href=" ">Zahn Innovation Center</a></h4>
+                      <p class="separator">Engineering Apprentice (Feb 2019 - May 2020)
+                      </p>
+
+                    </div>
+                  </div>
+
+                  <div class="journal-info">
+                    <a data-toggle="modal" data-target="#dsModal" href=" "><img src="images/exp/DogSpot.jpg" class="img-responsive" alt="img"></a>
+                    <div class="journal-txt">
+
+                      <h4><a data-toggle="modal" data-target="#dsModal" href=" ">DogSpot Inc.</a></h4>
+                      <p class="separator">Engineering Intern (June 2019 - Aug 2019)
+                      </p>
+
+                    </div>
+                  </div>
+
+                  <div class="journal-info">
+                    <a data-toggle="modal" data-target="#taiModal" href=" "><img src="images/exp/TAI.jpg" class="img-responsive" alt="img"></a>
+                    <div class="journal-txt">
+
+                      <h4><a data-toggle="modal" data-target="#taiModal" href=" ">Tech Achievement Institute</a></h4>
+                      <p class="separator">Arduino Instructor (May 2018 - May 2019)
+                      </p>
+
+                    </div>
+                  </div>
+
+                </div>
+
+            <!--  ...........................  EXPERIENCES MODALS  .................................. -->
+
+            <!-- WearWorks -->
+            <div id="wwModal" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg" style="width:80%">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title"><font color=PURPLE size=4>WearWorks Inc.</font></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <div class="modal-body text-left">
+                    <p>
+                      <DIV align="center">
+                        <img src="images/exp/Wayband.jpg"  class="imgPoster3">
+                        <hr style="width:80%">
+                      </DIV>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>About</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          WearWorks is a haptic design company that delivers detailed and nuanced information, through touch.
+                          Their first product is the WayBand, a haptic smartwatch designed to help the blind and visually impaired
+                          navigate to their destination.
+                        </div>
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Responsibities</strong></u>:</font>
+                        </div>
+
+                        <div class = "col-sm-9">
+                          <font color=BLUE>Production Engineering Intern (Jan 2020-Feb 2020)</font> <span class="brmedium3"></span>
+                          - Lead development and production of the WayBand for showcasing events and product launch <span class="brmedium3"></span>
+                          - Iterated design to make watch housing more water-resistant <span class="brmedium3"></span>
+                          - Iterated different locking mechanisms between the top and bottom watch housing to increase structural rigidity <span class="brmedium3"></span>
+                          - Soldered, assembled, and applied finishing techniques for WayBand production <span class="brmedium3"></span>
+                          - Operated and maintained Form 2 to lead product iterations and development<hr>
+
+                          <font color=BLUE>Mechanical Engineering Intern (June 2020-Aug 2020)</font> <span class="brmedium3"></span>
+                          - Collaborated in a team of three to design, iterate, and prototype the WayBand for manufacturing <span class="brmedium3"></span>
+                          - Conducted injection molding and stress simulations in SolidWorks to optimize WayBand for manufacturing <span class="brmedium3"></span>
+                          - Managed DFMEA, PFMEA, process flow chart, and other manufacturing-related documents <span class="brmedium3"></span>
+                          - Contacted and identified promising U.S. and overseas suppliers for B.O.M. needs.
+                          Suppliers ranged from plastic and silicone injection molding companies to curing ovens to watch straps<span class="brmedium3"></span>
+                          - Ideated and modeled different versions of packaging for WayBand. Modeled packaging structure, insert, and components in Fusion 360
+                        </div>
+
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Accomplishments</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          <font color=BLUE>✰</font> Key role in developing/iterating WayBand for company's <i>5000-unit</i> pilot batch deadline in the Fall <span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Gained extensive experience in design for manufacturing, managing manufacturing documents (DFMEA, PFMEA, process flow chart, etc), and
+                          producing engineering drawings using GD&T<span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Improved SolidWorks fluency in <i>surfacing</i> and conducting <i>plastic and stress simulations</i>. Used simulations in tandem with
+                          feedback from injection molding companies to balance design integrity and manufacturing costs of company product<span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Experienced in manufacturing processes using potting compounds and optimizing manufacturing plans to meet Takt time requirements<span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Experienced in producing clean, organized, and efficient model trees. WayBand model tree was heavily critiqued and reviewed
+                          by fellow industrial designers
+                        </div>
+                      </div>
+
+                    </p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Zahn Innovation Center -->
+            <div id="zcModal" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg" style="width:80%">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title"><font color=PURPLE size=4>Zahn Innovation Center</font></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <div class="modal-body text-left">
+                    <p>
+                      <DIV align="center">
+                        <img src="images/exp/Collage_Zahn.png"  class="imgPoster">
+                        <hr style="width:80%">
+                      </DIV>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>About</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          Situated at the City College of New York, the Zahn Center is an incubator that assimilates selected students, or <em>apprentices</em>,
+                          into their MakerLab and hones practical skills in various engineering disciplines. Clients approach the Center with real ideas and design criterias,
+                          and tasks us to prototype and bring their ideas into reality.
+                        </div>
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Responsibities</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          - Execute design of various client requested products through Agile communication and small team collaboration <span class="brmedium3"></span>
+                          - Using SolidWorks, Fusion 360, 3D printers, and laser cutter for various projects and design applications <span class="brmedium3"></span>
+                          - Use and maintenance of FDM and SLA 3D printers to execute prototyping services. Worked with Zortrax M200, Makerbot Replicator+, and Stratasys Objet30 <span class="brmedium3"></span>
+                          - Designed, iterated, and delivered a multi-accessory K-8 mathematical learning apparatus to an outside client. Presented exploded view animations to the
+                          client throughout the design/iteration process.
+
+                        </div>
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Accomplishments</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          <font color=BLUE>✰</font> Designed, prototyped, and executed a math accessory for K-8 students; successfully met client's vision and design criterias <span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Gained a year's worth of experience in using SolidWorks and Autodesk Fusion 360 for various design applications <span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Honed understanding of Agile methodology through client communication and small team collaboration
+                        </div>
+                      </div>
+
+                    </p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- DogSpot Inc -->
+            <div id="dsModal" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg" style="width:80%">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title"><font color=PURPLE size=4>DogSpot Inc.</font></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <div class="modal-body text-left">
+                    <p>
+                      <DIV align="center">
+                        <img src="images/exp/Collage_NewLab.png"  class="imgPoster2">
+                        <img src="images/exp/Collage_DogSpotOffice.png"  class="imgPoster2">
+                        <hr style="width:80%">
+                      </DIV>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>About</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          Situated at the New Lab in Brooklyn, NY, DogSpot is a social impact hardware startup with the mission of making the world a dog-friendly place
+                          through smart sidewalk doghouses. These doghouses are equipped with WiFi, cameras, UV, AC, and heated pads.
+                        </div>
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Responsibities</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          - Supported circuit board production through wire prep, soldering, and board assembly <span class="brmedium3"></span>
+                          - Managed circuit board materials, and documented assembly and troubleshooting processes <span class="brmedium3"></span>
+                          - Maintained strong communication with house assembly team to ensure deadline completion and smooth workflow
+                        </div>
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Accomplishments</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          <font color=BLUE>✰</font> Streamlined circuit board production through documentation of assembly and troubleshooting processes <span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Tested functionality of PCBs by running scripts on test rig; ensured PCB quality and longevity through multimeter short checks and thorough solder
+                          flux cleaning using Isoprophyl Alcohol<span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Furthered knowledge of electrical engineering concepts and reinforced proper technique of soldering surface mount components <span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Honed communication skills through day-to-day collaboration with other company teams
+                        </div>
+                      </div>
+
+                    </p>
+                  </div>
+
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Tech Achievement Achievements -->
+            <div id="taiModal" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg" style="width:80%">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title"><font color=PURPLE size=4>Tech Achievement Institute</font></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <div class="modal-body text-left">
+                    <p>
+                      <DIV align="center">
+                        <img src="images/exp/Collage_TAI.png"  class="imgPoster">
+                        <hr style="width:80%">
+                      </DIV>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>About</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          Situated in a YMCA in Long Island City, NY, Tech Achievement Institute offers robotics courses to children as young as 8 years old. Previously relying on online kits,
+                          a team, comprised of four high school graduates and myself, pioneered an Arduino curriculum to attract and engage a wider student audience.
+                        </div>
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Responsibities</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          - Organized and introduced a robotics curriculum using the platform Arduino <span class="brmedium3"></span>
+                          - Taught basics of programming and electrical engineering to children as young as 8 years old<span class="brmedium3"></span>
+                          - Aided students in creating LED, sensor, and motorized car projects
+                        </div>
+                      </div> <span class="brmedium2"></span>
+
+                      <div class = "row">
+                        <div class = "col-sm-3">
+                          <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Accomplishments</strong></u>:</font>
+                        </div>
+                        <div class = "col-sm-9">
+                          <font color=BLUE>✰</font> Increased total number of student applications and range of student audience<span class="brmedium3"></span>
+                          <font color=BLUE>✰</font> Bolstered student retention rate through implementation of a project-based curriculum
+                        </div>
+                      </div>
+
+                    </p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- -->
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- End section journal -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="paddsection">
+
     <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+    </div>
+
+    <div class="text-center container">
       <div class="row">
         <div class="col-md-12">
 
-          <div class="portfolio-list">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <div class="portfolio-flters">
 
-            <ul class="nav list-unstyled" id="portfolio-flters">
-              <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".cad">CAD</li>
-              <li class="filter" data-filter=".arduino">Arduino</li>
-              <li class="filter" data-filter=".robotics">Robotics</li>
-              <li class="filter" data-filter=".programming">Programming</li>
-            </ul>
+                <ul class="nav list-unstyled" id="portfolio-flters">
+                  <li class="filter filter-active" data-filter=".all">all</li>
+                  <li class="filter" data-filter=".cad">CAD</li>
+                  <li class="filter" data-filter=".arduino">Arduino</li>
+                  <li class="filter" data-filter=".robotics">Robotics</li>
+                  <li class="filter" data-filter=".programming">Programming</li>
+                </ul>
 
+              </div>
+            </div>
           </div>
 
           <div class="portfolio-container">
@@ -258,7 +610,7 @@
                   </a>
 
                 </div>
-                
+
                 <div class="work-content">
                   <div class="row">
                     <!-- Text and Plus Icon -->
@@ -831,261 +1183,6 @@
   </div>
   <!-- End section portfolio -->
 
-  <!-- start section journal -->
-  <div id="journal" class="text-left paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Experiences<hr style="width:40%"></h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="journal-block">
-        <div class="row">
-
-              <!-- <div class="owl-four owl-carousel owl-theme navbarsExp"> </div>
-                   //Remove <div class="col-lg-4 col-md-6"> </div> header and just use the subheader inside -->
-
-              <div class="col-lg-4 col-md-6">
-                <div class="journal-info">
-                  <a data-toggle="modal" data-target="#zcModal" href=" "><img src="images/exp/ZahnCenter.jpg" class="img-responsive" alt="img"></a>
-                  <div class="journal-txt">
-
-                    <h4><a data-toggle="modal" data-target="#zcModal" href=" ">Zahn Innovation Center</a></h4>
-                    <p class="separator">Engineering Apprentice (February 2019 - Present)
-                    </p>
-
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <div class="journal-info">
-                  <a data-toggle="modal" data-target="#dsModal" href=" "><img src="images/exp/DogSpot.jpg" class="img-responsive" alt="img"></a>
-                  <div class="journal-txt">
-
-                    <h4><a data-toggle="modal" data-target="#dsModal" href=" ">DogSpot Inc.</a></h4>
-                    <p class="separator">Engineering Intern (June 2019 - August 2019)
-                    </p>
-
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <div class="journal-info">
-
-                  <a data-toggle="modal" data-target="#taiModal" href=" "><img src="images/exp/TAI.jpg" class="img-responsive" alt="img"></a>
-
-                  <div class="journal-txt">
-
-                    <h4><a data-toggle="modal" data-target="#taiModal" href=" ">Tech Achievement Institute</a></h4>
-                    <p class="separator">Arduino Instructor (May 2018 - May 2019)
-                    </p>
-
-                  </div>
-
-                </div>
-              </div>
-
-          </div>
-
-          <!--  ...........................  EXPERIENCES MODALS  .................................. -->
-
-          <!-- Zahn Innovation Center -->
-          <div id="zcModal" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg" style="width:80%">
-
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title"><font color=PURPLE size=4>Zahn Innovation Center</font></h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <div class="modal-body text-left">
-                  <p>
-                    <DIV align="center">
-                      <img src="images/exp/Collage_Zahn.png"  class="imgPoster">
-                      <hr style="width:80%">
-                    </DIV>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>About</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        Situated at the City College of New York, the Zahn Center is an incubator that assimilates selected students, or <em>apprentices</em>,
-                        into their MakerLab and hones practical skills in various engineering disciplines. Clients approach the Center with real ideas and design criterias,
-                        and tasks us to prototype and bring their ideas into reality.
-                      </div>
-                    </div> <span class="brmedium2"></span>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Responsibities</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        - Execute design of various client requested products through Agile communication and small team collaboration <span class="brmedium3"></span>
-                        - Using SolidWorks, Fusion 360, 3D printers, and laser cutter for various projects and design applications <span class="brmedium3"></span>
-                        - Use and maintenance of FDM and SLA 3D printers to execute prototyping services
-                      </div>
-                    </div> <span class="brmedium2"></span>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Accomplishments</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        <font color=BLUE>✰</font> Designed and prototyped a math accessory for K-8 students; successfully met client's vision and design criterias <span class="brmedium3"></span>
-                        <font color=BLUE>✰</font> Gained a year's worth of experience in using SolidWorks and Autodesk Fusion 360 for various design applications <span class="brmedium3"></span>
-                        <font color=BLUE>✰</font> Honed understanding of Agile methodology through client communication and small team collaboration
-                      </div>
-                    </div>
-
-                  </p>
-                </div>
-
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- DogSpot Inc -->
-          <div id="dsModal" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg" style="width:80%">
-
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title"><font color=PURPLE size=4>DogSpot Inc.</font></h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <div class="modal-body text-left">
-                  <p>
-                    <DIV align="center">
-                      <img src="images/exp/Collage_NewLab.png"  class="imgPoster2">
-                      <img src="images/exp/Collage_DogSpotOffice.png"  class="imgPoster2">
-                      <hr style="width:80%">
-                    </DIV>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>About</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        Situated at the New Lab in Brooklyn, NY, DogSpot is a social impact hardware startup with the mission of making the world a dog-friendly place
-                        through smart sidewalk doghouses. These doghouses are equipped with WiFi, cameras, UV, AC, and heated pads.
-                      </div>
-                    </div> <span class="brmedium2"></span>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Responsibities</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        - Supported circuit board production through wire prep, soldering, and board assembly <span class="brmedium3"></span>
-                        - Managed circuit board materials, and documented assembly and troubleshooting processes <span class="brmedium3"></span>
-                        - Maintained strong communication with assembly team to ensure deadline completion and smooth workflow
-                      </div>
-                    </div> <span class="brmedium2"></span>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Accomplishments</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        <font color=BLUE>✰</font> Streamlined process in building and shipping of commercial products through documentation of production processes <span class="brmedium3"></span>
-                        <font color=BLUE>✰</font> Furthered knowledge of electrical engineering concepts and reinforced proper technique of soldering surface mount components <span class="brmedium3"></span>
-                        <font color=BLUE>✰</font> Honed communication skills through day-to-day collaboration with other company teams
-                      </div>
-                    </div>
-
-                  </p>
-                </div>
-
-
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- Tech Achievement Achievements -->
-          <div id="taiModal" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg" style="width:80%">
-
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title"><font color=PURPLE size=4>Tech Achievement Institute</font></h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <div class="modal-body text-left">
-                  <p>
-                    <DIV align="center">
-                      <img src="images/exp/Collage_TAI.png"  class="imgPoster">
-                      <hr style="width:80%">
-                    </DIV>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>About</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        Situated in a YMCA in Long Island City, NY, Tech Achievement Institute offers robotics courses to children as young as 8 years old. Previously relying on online kits,
-                        a team, comprised of four high school graduates and myself, pioneered an Arduino curriculum to attract and engage a wider student audience.
-                      </div>
-                    </div> <span class="brmedium2"></span>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Responsibities</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        - Organized and introduced a robotics curriculum using the platform Arduino <span class="brmedium3"></span>
-                        - Taught basics of programming and electrical engineering to children as young as 8 years old<span class="brmedium3"></span>
-                        - Aided students in creating LED, sensor, and motorized car projects
-                      </div>
-                    </div> <span class="brmedium2"></span>
-
-                    <div class = "row">
-                      <div class = "col-sm-3">
-                        <font color=BLUE>│ </font><font color="151B54" size ="3"><u><strong>Accomplishments</strong></u>:</font>
-                      </div>
-                      <div class = "col-sm-9">
-                        <font color=BLUE>✰</font> Increased total number of student applications and range of student audience<span class="brmedium3"></span>
-                        <font color=BLUE>✰</font> Bolstered student retention rate through implementation of a project-based curriculum
-                      </div>
-                    </div>
-
-                  </p>
-                </div>
-
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- End section journal -->
-
   <!-- start section Achievements -->
   <div id="achievements" class="testimonials paralax-mf bg-image" style="background-image: url(images/pathv2.jpg)">
     <div class="overlay-mf"></div>
@@ -1094,7 +1191,7 @@
         <div class="col-md-12">
 
           <div class="container">
-            <div class="section-title text-center">
+            <div class="section-title1 text-center">
               <h2><font color=WHITE>Achievements<hr style="height:1px;border-top:1px solid WHITE" /></font></h2>
             </div>
           </div>
@@ -1171,7 +1268,7 @@
               <h2 class="mb-30">GET IN TOUCH</h2>
 
               <ul class="contact-details">
-                <li><span><a href = "mailto: francis.s@zahncenternyc.com">francis.s[at]zahncenternyc.com</a></span></li>
+                <li><span><a href = "mailto: francisgold.sy@gmail.com">francisgold.sy[at]gmail.com</a></span></li>
                 <li><span>New York, United States</span></li>
                 <li><span><a href = "Resume - Francis Sy.pdf">My Resume</a></span></li>
               </ul>
