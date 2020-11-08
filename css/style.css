@@ -149,7 +149,8 @@ p {
 }
 
 .section-title1 h2 {
-  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
