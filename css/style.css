@@ -826,6 +826,15 @@ text-align: center;
 
 #journal .journal-block .journal-info {
   position: relative;
+
+  padding: 18px 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0px;
+
+  box-shadow: 0 0 10px 0 rgba(68, 88, 144, 0.2);
+  z-index: 1;
 }
 
 .journal-block .journal-info img {
