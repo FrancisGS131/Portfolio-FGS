@@ -78,7 +78,7 @@ $(document).ready(function() {
   var typed = $(".typed");
   var qualities = ["Problem Solver.","Ambitious.","Meticulous.","Engineer."];
   for(var i=0;i<4;i++){
-    qualities[i] = qualities[i].fontcolor("yellow");
+    qualities[i] = qualities[i].fontcolor("#FFD700");
     // qualities[i] = qualities[i].bold();
     qualities[i] = qualities[i].italics();
   }
